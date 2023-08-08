@@ -14,7 +14,6 @@ export default function Login() {
     push('/pages/dashboard');
   }
 
-
   return (
     <div>
       <h1>Login</h1>
@@ -31,6 +30,7 @@ export default function Login() {
         </input>
         <button>Entrar</button>
       </form>
+
     </div>
   )
 }
